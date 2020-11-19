@@ -36,8 +36,8 @@ STEPS:
  ```js
 const init = (async (url) => {
     //init IFFF
-    let f = await frank(url);
-    console.log("\nreturned from frank() after await:\n\n" + JSON.stringify(f));
+    let f = await fetcher(url);
+    console.log("\nreturned from fetcher() after await:\n\n" + JSON.stringify(f));
     console.log("\n\nNOW - the end!!!!");
   })(url);
 ```
