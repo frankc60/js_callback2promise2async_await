@@ -1,11 +1,11 @@
-#Convert a Callback to Promise - async/await
+# Convert a Callback to Promise - async/await
 frankc60@gmail.com 2020
 
 Convert the builtin NodeJS callback "https" module to a Promise.
 
 use either then().catch() or async/await to retrieve the data.
 
-steps.
+STEPS:
 1. take the callback code and put it in a normal function/method
    const fetcher = (url) => { ...
 
